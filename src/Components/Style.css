@@ -1,0 +1,232 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap");
+
+body {
+  background-color: hsl(222, 26%, 31%);
+  font-family: "League Spartan", sans-serif;
+  font-size: 26px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1% auto;
+  width: 28%;
+}
+.header h3 {
+  font-size: 30px;
+  margin-bottom: 0;
+}
+
+.header_theme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+}
+
+.header_theme h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+.header_theme p {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+  letter-spacing: 7px;
+}
+
+.theme-control-btn {
+  margin-top: 0;
+  border-radius: 10px;
+  width: 65px;
+}
+
+.theme-control-btn button {
+  height: 15px;
+  width: 15px;
+  margin: 0 4%;
+  border-radius: 50%;
+  border: 0px solid;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.calculator {
+  margin: 2% auto;
+  width: 70%;
+}
+
+.screen {
+  width: 38.3%;
+  margin: 1% auto;
+  height: 100px;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.screen h3 {
+  font-size: 42px;
+  text-align: right;
+  margin-top: 20px;
+}
+
+.screen p {
+  font-size: 20px;
+  text-align: left;
+}
+
+.keyboard {
+  width: 40%;
+  margin: 1% auto;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 8px;
+}
+
+.keyboard button {
+  padding: 22px;
+  width: 70px;
+  margin: 4%;
+  max-height: 65px;
+  cursor: pointer;
+  font-family: "League Spartan", sans-serif;
+  border: 0px solid;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 8px;
+}
+.reset-btn,
+.equals-btn {
+  width: 170px !important;
+}
+
+.theme-1 h6,
+.theme-1 h3,
+.theme-1 p {
+  color: hsl(30, 25%, 89%);
+}
+.theme-2 h6,
+.theme-2 h3,
+.theme-2 p {
+  color: hsl(60, 10%, 19%);
+}
+.theme-3 h6,
+.theme-3 h3,
+.theme-3 p {
+  color: hsl(52, 100%, 62%);
+}
+
+.theme-1 .theme-control-btn {
+  background-color: hsl(223, 31%, 20%);
+}
+.theme-1 .theme-control-btn .active {
+  background-color: hsl(6, 63%, 50%);
+}
+.theme-1 .theme-control-btn button:hover {
+  background-color: hsl(6, 70%, 34%);
+}
+.theme-2 .theme-control-btn {
+  background-color: hsl(0, 5%, 81%);
+}
+.theme-2 .theme-control-btn .active {
+  background-color: hsl(25, 98%, 40%);
+}
+.theme-2 .theme-control-btn button:hover {
+  background-color: hsl(25, 99%, 27%);
+}
+
+.theme-3 .theme-control-btn {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.theme-3 .theme-control-btn .active {
+  background-color: hsl(176, 100%, 44%);
+}
+.theme-3 .theme-control-btn button:hover {
+  background-color: hsl(177, 92%, 70%);
+}
+
+.theme-1-screen {
+  background-color: hsl(224, 36%, 15%);
+  color: hsl(30, 25%, 89%);
+}
+
+.theme-2-screen {
+  background-color: hsl(0, 0%, 93%);
+  color: hsl(60, 10%, 19%);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.theme-3-screen {
+  background-color: hsl(268, 71%, 12%);
+  color: hsl(52, 100%, 62%);
+}
+
+.theme-1-keyboard {
+  background-color: hsl(223, 31%, 20%);
+}
+
+.theme-1-keyboard button {
+  background-color: hsl(30, 25%, 89%);
+  color: hsl(221, 14%, 31%);
+  box-shadow: hsl(28, 16%, 65%) 1.95px 1.95px 2.6px;
+}
+
+.theme-1-keyboard .del-btn,
+.theme-1-keyboard .reset-btn {
+  background-color: hsl(225, 21%, 49%);
+  color: hsl(30, 25%, 89%);
+  box-shadow: hsl(225, 21%, 49%) 1.95px 1.95px 2.6px;
+}
+.theme-1-keyboard .equals-btn {
+  background-color: hsl(6, 63%, 50%);
+  color: hsl(30, 25%, 89%);
+  box-shadow: hsl(6, 70%, 34%) 1.95px 1.95px 2.6px;
+}
+
+.theme-2-keyboard {
+  background-color: hsl(0, 5%, 81%);
+}
+
+.theme-2-keyboard button {
+  background-color: hsl(45, 7%, 89%);
+  color: hsl(60, 10%, 19%);
+  box-shadow: hsl(35, 11%, 61%) 1.95px 1.95px 2.6px;
+}
+
+.theme-2-keyboard .del-btn,
+.theme-2-keyboard .reset-btn {
+  background-color: hsl(185, 42%, 37%);
+  color: hsl(30, 25%, 89%);
+  box-shadow: hsl(185, 58%, 25%) 1.95px 1.95px 2.6px;
+}
+.theme-2-keyboard .equals-btn {
+  background-color: hsl(25, 98%, 40%);
+  color: hsl(30, 25%, 89%);
+  box-shadow: hsl(25, 99%, 27%) 1.95px 1.95px 2.6px;
+}
+
+.theme-3-keyboard {
+  background-color: hsl(268, 71%, 12%);
+}
+
+.theme-3-keyboard button {
+  background-color: hsl(281, 89%, 26%);
+  color: hsl(52, 100%, 62%);
+  box-shadow: hsl(290, 70%, 36%) 1.95px 1.95px 2.6px;
+}
+.theme-3-keyboard .del-btn,
+.theme-3-keyboard .reset-btn {
+  background-color: hsl(281, 89%, 26%);
+  color: hsl(30, 25%, 89%);
+  box-shadow: hsl(285, 91%, 52%) 1.95px 1.95px 2.6px;
+}
+.theme-3-keyboard .equals-btn {
+  background-color: hsl(176, 100%, 44%);
+  color: hsl(198, 20%, 13%);
+  box-shadow: hsl(177, 92%, 70%) 1.95px 1.95px 2.6px;
+}
